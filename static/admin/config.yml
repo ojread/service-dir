@@ -50,7 +50,7 @@ collections:
     folder: "src/content/sections"
     create: true
     delete: true
-    extension: markdown
+    extension: md
     format: frontmatter
     slug: "{{slug}}"
     fields:
