@@ -55,6 +55,6 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Parent", name: "parent", widget: "relation", collection: "sections", searchFields: ["name"], valueField: "name"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Description", name: "description", widget: "string", required: false}
+      - {label: "Parent", name: "parent", widget: "relation", collection: "sections", searchFields: ["name"], valueField: "name", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
